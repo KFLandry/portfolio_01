@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en" class="text-[14px] sm:text-[16px]">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- ion icons link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- Tailwind CSS CDN Link -->
+  <link href="./output.css" rel="stylesheet">
+
+  <!-- Daisy Ui Links -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Landry kankeu</title>
+</head>
+
+<body style="font-family: Roboto, sans-serif;" class="bg-[#021227] text-[#cccccc]">
+
+  <!-- ********************************************** -->
+  <!-- Header Section -->
+  <!-- ********************************************** -->
+
+  <header class="bg-[#021227] max-w-screen-xl	mx-auto px-4 py-6">
+    <nav class="">
+      <ul  class="flex justify-around font-semibold">
+        <!-- <li class=""><a href="#skills" class="transition-all hover:text-[#247032]">Skills</a></li> -->
+        <li class=""><a href="#projects" class="transition-all hover:text-[#247032]">Projects</a></li>
+        <li class=""><a href="#blogs" class="transition-all hover:text-[#247032]">Veille</a></li>
+        <li class=""><a href="#contact" class="transition-all hover:text-[#247032]">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <!-- ********************************************** -->
+  <!-- Hero Section -->
+  <!-- ********************************************** -->
+
+  <section  class="p-3 flex flex-col-reverse sm:flex-row sm:justify-between lg:min-h-screen sm:px-16  max-w-screen-xl mx-auto">
+    <!-- left side -->
+    <div>
+      <p  class="text-[#309543] max-w-md font-semibold">Salut, je m'appelle </p>
+      <h2 class="text-4xl lg:text-5xl xl:text-6xl	font-bold text-[#cccccc] mt-3 lg:mt-7">LANDRY KANKEU</h2>
+      <h2 class=" text-3xl md:text-center lg:text-4xl xl:text-5xl font-bold text-[#247032] mt-3 lg:mt-7" >Développeur Junior</h2>
+      <p class="border-red-600 mt-6 lg:mt-10 max-w-md text-[#cccccc]" >
+        Passionné de technologie et déterminé à devenir Ingénieur en Informatique, je suis en plein parcours vers cet objectif. Actuellement en 2ème année de BTS SIO option SLAM, je prévois de poursuivre mon chemin en école d'ingénieur dès l'année prochaine. Au cours de mes projets, j'ai eu l'opportunité de découvrir divers langages de programmation et technologies, renforçant ainsi mes compétences et ma passion pour ce domaine.<br>
+      </p>
+      <div class="mt-12">
+        <a href="#skills" class="px-6 py-3 text-[#309543] border-2 border-[#309543] font-bold transition-all hover:bg-[#30954232] rounded-md">Mes compétences</a>
+      </div>
+      <!-- social Links -->
+      <div class="mt-12">
+        <ul class="flex p-3">
+          <li class="mr-2 flex justify-center items-center">
+            <a href="linkedin.com/in/landry-kankeu-838530252" target="_blank" class="w-[35px] h-[35px]">
+              <ion-icon name="logo-linkedin" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </li>
+          <li class="mr-2 flex justify-center items-center">
+            <a href="https://github.com/KFLandry/" target="_blank" class="w-[35px] h-[35px]">
+              <ion-icon name="logo-github" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </li>
+          <li class="mr-2 flex justify-center items-center">
+          <li class="mr-2 flex justify-center items-center">
+            <a href="mailto: wilfrieddev0@gmail.com" target="_blank" class="w-[35px] h-[35px]">
+              <ion-icon name="mail" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- right side -->
+    <div class="hidden sm:block sm:w-2/5">
+      <img src="images\Screenshot 2024-03-20 at 21.17.26.png" alt="hero-img" class="">
+    </div>
+  </section>
+
+  <!-- ********************************************** -->
+  <!-- tech stack Section -->
+  <!-- ********************************************** -->
+
+  <section class="px-8 sm:px-16 py-16 max-w-screen-xl mx-auto" id="skills">
+    <div>
+      <div class="flex justify-center items-center gap-12 pb-12">
+        <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
+        <h2 class="text-4xl font-bold">COMPETENCES</h2>
+        <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
+      </div>
+      <!-- skills -->
+      <div class="w-full p-3" >
+        <ul class="flex flex-col w-full">
+          <li>
+            <p class="font-semibold">Front-End</p>
+            <div class="p-2 flex flex-row w-full  justify-center items-center">
+              <div class="flex flex-col items-center gap-2">
+                <img src="./images/icons8-javascript-96.svg" alt="javascript icon" class="w-24 h-24">
+                <p class="font-semibold text-[#cccccc]">HTML</p>
+              </div>
+              <div class="flex flex-col items-center gap-2">
+                <img src="./images/icons8-javascript-96.svg" alt="javascript icon" class="w-24 h-24">
+                <p class="font-semibold text-[#cccccc]">JavaScript</p>
+              </div>
+              <div class="flex flex-col items-center gap-2">
+                <img src="./images/icons8-css3-96.svg" alt="css icon" class="w-24 h-24">
+                <p class="font-semibold text-[#cccccc]">CSS</p>
+              </div>
+              <div class="flex flex-col items-center gap-2">
+                <img src="./images/icons8-css3-96.svg" alt="css icon" class="w-24 h-24">
+                <p class="font-semibold text-[#cccccc]">Webdev</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <p class="font-semibold">Back-End</p>
+              <div class="p-2  flex flex-row justify-center items-center">
+                <div class="flex flex-col items-center gap-2">
+                  <img src="./images/icons8-css3-96.svg" alt="css icon" class="w-24 h-24">
+                  <p class="font-semibold text-[#cccccc]">PHP</p>
+                </div>
+                <div class="flex flex-col items-center gap-2">
+                  <img src="./images/icons8-css3-96.svg" alt="css icon" class="w-24 h-24">
+                  <p class="font-semibold text-[#cccccc]">Javascript</p>
+                </div>
+                <div class="flex flex-col items-center gap-2">
+                  <img src="./images/icons8-css3-96.svg" alt="css icon" class="w-24 h-24">
+                  <p class="font-semibold text-[#cccccc]">java</p>
+                </div>
+                <div class="flex flex-col items-center gap-2">
+                  <img src="./images/icons8-css3-96.svg" alt="css icon" class="w-24 h-24">
+                  <p class="font-semibold text-[#cccccc]">Windev</p>
+                </div>
+                <div class="flex flex-col items-center gap-2">
+                  <img src="./images/icons8-css3-96.svg" alt="css icon" class="w-24 h-24">
+                  <p class="font-semibold text-[#cccccc]">SQL</p>
+                </div>
+              </div>
+          </li>
+          <li>
+            <p class="font-semibold" >Outils et technologies</p>
+            <div class="p-2 flex flex-row justify-center items-center">
+              <div class="flex flex-col items-center gap-2 ">
+                <img src="./images/tailwind-css.svg" alt="tailwind css icon" class="w-24 h-24">
+                <p class="font-semibold text-[#cccccc] text-center">ReactJS</p>
+              </div>
+              <div class="flex flex-col items-center gap-2 ">
+                <img src="./images/tailwind-css.svg" alt="tailwind css icon" class="w-24 h-24">
+                <p class="font-semibold text-[#cccccc] text-center">TailwindCSS</p>
+              </div>
+              <div class="flex flex-col items-center gap-2 ">
+                <img src="./images/tailwind-css.svg" alt="tailwind css icon" class="w-24 h-24">
+                <p class="font-semibold text-[#cccccc] text-center">Symphony</p>
+              </div>
+              <div class="flex flex-col items-center gap-2 ">
+                <img src="./images/tailwind-css.svg" alt="tailwind css icon" class="w-24 h-24">
+                <p class="font-semibold text-[#cccccc] text-center">GDS</p>
+              </div>
+              <div class="flex flex-col items-center gap-2">
+                <img src="./images/icons8-git-96.svg" alt="git icon" class="w-24 h-24">
+                <p class="font-semibold text-[#cccccc]">Git/GitHub</p>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ****************************************** -->
+  <!-- Some Things I’ve Built Section -->
+  <!-- ****************************************** -->
+          <!--  -->
+  <section class="bg-[#021227] px-7 sm:px-14 py-16 max-w-screen-xl mx-auto" id="projects">
+            <div class="flex items-center justify-center gap-12 pb-12">
+              <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
+              <h2 class="text-4xl font-bold text-center">Mes Projets</h2>
+              <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
+            </div>
+        
+            <!-- featured projects -->
+            <div>
+        
+              <!-- featured project 01 -->
+              <div class="flex flex-col sm:flex-row sm:gap-12 mt-20">
+        
+                <!-- left side -->
+                <div class="mockup-window border border-base-300 sm:w-1/2 h-[300px] order-2	sm:order-none">
+                  <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-[300px] rounded">
+                    <div class="featured-project-img-01  transition-all	duration-500  ">
+                      <img src="./images/todo-screenshot.png" alt="paytm clone" class="">
+                    </div>
+                  </div>
+                </div>
+        
+                <!-- right side -->
+                <div class="sm:w-1/2 h-[300px] flex flex-col justify-center order-1 sm:order-none">
+                  <h2 class="sm:text-end text-3xl font-bold mb-8 sm:relative sm:right-[10%] lg:right-1/4">Tarifeo Gestion
+                  </h2>
+                  <p
+                    class="bg-[#051830] pl-8 pr-2 py-4 mb-2 rounded shadow-sm sm:relative sm:right-[10%] lg:right-1/4 text-[#ffffff78]">
+                    Module de gestion de gestion des relances utilisateurs <br>
+                    This is an assignment given in "JavaScript Full Stack Web Developer Bootcamp" by iNeuron, built using
+                    MongoDb, Express, React and NodeJS. <br>
+                    <span class="text-[#309543] font-medium">This Site is Fully Responsive</span>
+                  </p>
+                  <div style="font-family: 'Roboto Mono', monospace;" class="sm:relative sm:right-[10%] lg:right-1/4">
+                    <ul class="flex gap-4 sm:justify-end text-sm">
+                      <li>Windev</li>
+                      <li>HFSQL</li>                  
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+              <!-- featured project 02 -->
+              <div class="flex flex-col sm:flex-row sm:gap-12 mt-20 sm:mt-20">
+        
+                <!-- right side -->
+                <div class="sm:w-1/2 h-[300px] flex flex-col justify-center">
+                  <h2 class=" text-3xl font-bold mb-8 sm:relative sm:left-[10%] lg:left-1/4">Tarifeo Stats <br>
+                  </h2>
+                  <p
+                    class="bg-[#051830] pl-8 pr-2 py-4 mb-2 rounded shadow-sm sm:relative sm:left-[10%] lg:left-1/4 z-40 text-[#ffffff78]">Interface dedies aux statistiques de BS2I <br>
+                    This is a GitHub Profile Finder React App build using HTML5, Tailwind CSS and React. <br>
+                    <span class="text-[#309543] font-medium">This Site is Fully Responsive</span>
+                  </p>
+                  <div style="font-family: 'Roboto Mono', monospace;" class="sm:relative sm:left-[10%] lg:left-1/4">
+                    <ul class="flex gap-4 justify-start text-sm">
+                      <li>Windev</li>
+                      <li>HFSQL</li>
+                    </ul>
+                  </div>
+                </div>
+        
+                <!-- left side -->
+                <div class="mockup-window border border-base-300 sm:w-1/2 h-[300px]">
+                  <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-[300px] rounded">
+                    <div class="featured-project-img-01  transition-all	duration-500  ">
+                      <img src="./images/github-finder-screenshot.png" alt="rode website clone" class="">
+                    </div>
+                  </div>
+                </div>
+        
+              </div>
+        
+              <!-- featured project 03 -->
+              <div class="flex flex-col sm:flex-row sm:gap-12 mt-20 sm:mt-20">
+        
+                <!-- left side -->
+                <div class="mockup-window border border-base-300 sm:w-1/2 h-[300px] order-2 sm:order-none	">
+                  <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-[300px] rounded">
+                    <div class="featured-project-img-01  transition-all	duration-500  ">
+                      <img src="./images/shopify.webp" alt="shopify clone">
+                    </div>
+                  </div>
+                </div>
+        
+                <!-- right side -->
+                <div class="sm:w-1/2 h-[300px] flex flex-col justify-center">
+                  <h2 class="sm:text-end text-3xl font-bold mb-8 sm:relative sm:right-[10%] lg:right-1/4">Educycle
+                  </h2>
+                  <p
+                    class="bg-[#051830] pl-8 pr-2 py-4 mb-2 rounded shadow-sm sm:relative sm:right-[10%] lg:right-1/4 text-[#ffffff78]">
+                    EduCycle : une plateforme pour la communauté étudiante de Nice. Fournitures scolaires, échanges solidaires. Interface simple, sécurisée. Développement optimisé : <a href="" class="text-blue-400">SPA</a> en Vanilla JS, <a href="" class="text-blue-400">API REST</a> en PHP. Rejoignez-nous pour une économie circulaire et responsable.<br>
+                  </p>
+                  <div style="font-family: 'Roboto Mono', monospace;" class="sm:relative sm:right-[10%] lg:right-1/4">
+                    <ul class="flex gap-4 sm:justify-end text-sm">
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>JavaScript</li>
+                      <li>Tailwind CSS</li>
+                      <li>PHP</li>
+                      <li>MYSQL</li>
+                    </ul>
+                  </div>
+                  <div class="flex gap-4 mt-2 sm:justify-end sm:relative sm:right-[10%] lg:right-1/4">
+                    <a href="https://github.com/KFLandry/eduCycle.git" target="_blank" class="w-9 h-9">
+                      <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                    </a>
+                    <a href="#" target="_blank" class="w-9 h-9">
+                      <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                    </a>
+                  </div>
+                </div>
+        
+              </div>
+        
+              <!-- featured project 04 -->
+              <div class="flex flex-col sm:flex-row sm:gap-12 mt-20 sm:mt-20">
+        
+                <!-- right side -->
+                <div class="sm:w-1/2 h-[300px] flex flex-col justify-center">
+                  <h2 class=" text-3xl font-bold mb-8 sm:relative sm:left-[10%] lg:left-1/4">Basket Master</h2>
+                  <p
+                    class="bg-[#051830] pl-8 pr-2 py-4 mb-2 rounded shadow-sm sm:relative sm:left-[10%] lg:left-1/4 z-40 text-[#ffffff78]">
+                    A Food Delivery AI Startup's Fully Responsive website, built using HTML5, CSS3, and JavaScript. <br>
+                    <span class="text-[#309543] font-medium">This Site is Fully Responsive</span>
+                  </p>
+                  <div style="font-family: 'Roboto Mono', monospace;" class="sm:relative sm:left-[10%] lg:left-1/4">
+                    <ul class="flex gap-4 justify-start text-sm">
+                      <li>Java</li>
+                      <li>JavaFX </li>
+                      <li>Mysql</li>
+                      <li>CSS</li>
+                    </ul>
+                  </div>
+                  <div class="flex gap-4 mt-2 justify-start sm:relative sm:left-[10%] lg:left-1/4">
+                    <a href="https://github.com/KFLandry/AssocationBasketProject.git" target="_blank" class="w-9 h-9">
+                      <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                    </a>
+                    <a href="#" target="_blank" class="w-9 h-9">
+                      <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                    </a>
+                  </div>
+                </div>
+        
+                <!-- left side -->
+                <div class="mockup-window border border-base-300 sm:w-1/2 h-[300px]">
+                  <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-[300px] rounded">
+                    <div class="featured-project-img-01  transition-all	duration-500  ">
+                      <img src="./images/omnifood.webp" alt="omnifood">
+                    </div>
+                  </div>
+                </div>
+        
+        
+              </div>
+        
+            </div>
+    <!-- Honorable Mentions -->
+    <div class="mt-20">
+      <h2 class="text-center text-3xl font-semibold">Veille Informatique</h2>
+
+      <!-- projects -->
+
+      <div class=" px-5 py-24">
+        <div class="flex flex-wrap gap-y-4 -m-4">
+
+          <!-- project 10 -->
+          <div class=" lg:w-1/3 sm:w-1/2 p-4 bg-[#051830]">
+            <div class="flex relative mentions-project rounded-md">
+              <img alt="developer-landing-page"
+                class="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                src="./images/rode-website-clone.webp">
+              <div class="px-8 py-10 relative z-10 w-full bg-[#051830] transition-all opacity-0 hover:opacity-95">
+                <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">HTML CSS</h2>
+                <h1 class="title-font text-lg font-medium text-white mb-3">Rode.com Clone</h1>
+                <p class="leading-relaxed">
+                  This is a assignment given in "JavaScript Full Stack Web Developer Bootcamp" by iNeuron, built using
+                  HTML5 and CSS3.
+                </p>
+                <div class="flex gap-4 mt-2 justify-start">
+                  <a href="https://github.com/prakash-naikwadi/rode-website-clone" target="_blank" class="w-9 h-9">
+                    <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                  <a href="https://rode-website-clone.netlify.app/" target="_blank" class="w-9 h-9">
+                    <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <!-- project 11 -->
+          <div class=" lg:w-1/3 sm:w-1/2 p-4 bg-[#051830]">
+            <div class="flex relative mentions-project rounded-md">
+              <img alt="developer-landing-page"
+                class="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                src="./images/paytm-screenshot.webp">
+              <div class="px-8 py-10 relative z-10 w-full bg-[#051830] transition-all opacity-0 hover:opacity-95">
+                <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">HTML CSS</h2>
+                <h1 class="title-font text-lg font-medium text-white mb-3">Paytm.com Clone</h1>
+                <p class="leading-relaxed">
+                  This is a assignment given in "JavaScript Full Stack Web Developer Bootcamp" by iNeuron, built using
+                  HTML5 and CSS3.
+                </p>
+                <div class="flex gap-4 mt-2 justify-start">
+                  <a href="https://github.com/prakash-naikwadi/paytm-clone" target="_blank" class="w-9 h-9">
+                    <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                  <a href="https://github.com/prakash-naikwadi/paytm-clone" target="_blank" class="w-9 h-9">
+                    <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 12 -->
+          <div class=" lg:w-1/3 sm:w-1/2 p-4 bg-[#051830]">
+            <div class="flex relative mentions-project rounded-md">
+              <img alt="web-hosting-landing-page"
+                class="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                src="./images/project-11.webp">
+              <div class="px-8 py-10 relative z-10 w-full bg-[#051830] transition-all opacity-0 hover:opacity-95">
+                <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">HTML CSS</h2>
+                <h1 class="title-font text-lg font-medium text-white mb-3">Web Hosting Landing Page</h1>
+                <p class="leading-relaxed">
+                  This is a assignment given in "JavaScript Full Stack Web Developer Bootcamp" by iNeuron, built using
+                  HTML5 and CSS3.
+                </p>
+                <div class="flex gap-4 mt-2 justify-start">
+                  <a href="https://github.com/prakash-naikwadi/web-hosting-landing-page" target="_blank"
+                    class="w-9 h-9">
+                    <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                  <a href="https://web-hosting-landing-page-11.netlify.app/" target="_blank" class="w-9 h-9">
+                    <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 15 -->
+          <div class=" lg:w-1/3 sm:w-1/2 p-4 bg-[#051830]">
+            <div class="flex relative mentions-project rounded-md">
+              <img alt="product-designer-landing-page"
+                class="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                src="./images/project-15.webp">
+              <div class="px-8 py-10 relative z-10 w-full bg-[#051830] transition-all opacity-0 hover:opacity-95">
+                <h2 class="tracking-widest text-sm title-font font-bold text-indigo-500 mb-1">HTML CSS</h2>
+                <h1 class="title-font text-lg font-medium text-white mb-3">Product Designer Landing Page</h1>
+                <p class="leading-relaxed">
+                  This is a assignment given in "JavaScript Full Stack Web Developer Bootcamp" by iNeuron, built using
+                  HTML5 and CSS3.
+                </p>
+                <div class="flex gap-4 mt-2 justify-start">
+                  <a href="https://github.com/prakash-naikwadi/product-designer-landing-page" target="_blank"
+                    class="w-9 h-9">
+                    <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                  <a href="https://product-designer-landing-page-15.netlify.app/" target="_blank" class="w-9 h-9">
+                    <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 14 -->
+          <div class=" lg:w-1/3 sm:w-1/2 p-4 bg-[#051830]">
+            <div class="flex relative mentions-project rounded-md">
+              <img alt="dance-home-landing-page"
+                class="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                src="./images/project-14.webp">
+              <div class="px-8 py-10 relative z-10 w-full bg-[#051830] transition-all opacity-0 hover:opacity-95">
+                <h2 class="tracking-widest text-sm title-font font-bold text-indigo-500 mb-1">HTML CSS</h2>
+                <h1 class="title-font text-lg font-medium text-white mb-3">Dance Home Landing Page</h1>
+                <p class="leading-relaxed">
+                  This is a assignment given in "JavaScript Full Stack Web Developer Bootcamp" by iNeuron, built using
+                  HTML5 and CSS3.
+                </p>
+                <div class="flex gap-4 mt-2 justify-start">
+                  <a href="https://github.com/prakash-naikwadi/dance-home-landing-page" target="_blank" class="w-9 h-9">
+                    <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                  <a href="https://dance-home-page-014.netlify.app/" target="_blank" class="w-9 h-9">
+                    <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]">
+                    </ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 13 -->
+          <div class=" lg:w-1/3 sm:w-1/2 p-4 bg-[#051830]">
+            <div class="flex relative mentions-project rounded-md">
+              <img alt="saas-landing-page" class="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                src="./images/project-13.webp">
+              <div class="px-8 py-10 relative z-10 w-full bg-[#051830] transition-all opacity-0 hover:opacity-95">
+                <h2 class="tracking-widest text-sm title-font font-bold text-indigo-500 mb-1">HTML CSS</h2>
+                <h1 class="title-font text-lg font-medium text-white mb-3">Saas Landing Page</h1>
+                <p class="leading-relaxed">
+                  This is a assignment given in "JavaScript Full Stack Web Developer Bootcamp" by iNeuron, built using
+                  HTML5 and CSS3.
+                </p>
+                <div class="flex gap-4 mt-2 justify-start">
+                  <a href="https://github.com/prakash-naikwadi/saas-landing-page" target="_blank" class="w-9 h-9">
+                    <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                  <a href="https://saas-landing-page-0013.netlify.app/" target="_blank" class="w-9 h-9">
+                    <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 12 -->
+          <div class=" lg:w-1/3 sm:w-1/2 p-4 bg-[#051830]">
+            <div class="flex relative mentions-project rounded-md">
+              <img alt="business-landing-page"
+                class="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                src="./images/project-12.webp">
+              <div class="px-8 py-10 relative z-10 w-full bg-[#051830] transition-all opacity-0 hover:opacity-95">
+                <h2 class="tracking-widest text-sm title-font font-bold text-indigo-500 mb-1">HTML CSS</h2>
+                <h1 class="title-font text-lg font-medium text-white mb-3">Business Landing Page</h1>
+                <p class="leading-relaxed">
+                  This is a assignment given in "JavaScript Full Stack Web Developer Bootcamp" by iNeuron, built using
+                  HTML5 and CSS3.
+                </p>
+                <div class="flex gap-4 mt-2 justify-start">
+                  <a href="https://github.com/prakash-naikwadi/business-landing-page" target="_blank" class="w-9 h-9">
+                    <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                  <a href="https://business-landing-page-0012.netlify.app/" target="_blank" class="w-9 h-9">
+                    <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 9 -->
+          <div class=" lg:w-1/3 sm:w-1/2 p-4 bg-[#051830]">
+            <div class="flex relative mentions-project rounded-md">
+              <img alt="developer-landing-page"
+                class="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                src="./images/project-09.webp">
+              <div class="px-8 py-10 relative z-10 w-full bg-[#051830] transition-all opacity-0 hover:opacity-95">
+                <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">HTML CSS</h2>
+                <h1 class="title-font text-lg font-medium text-white mb-3">Developer Landing Page</h1>
+                <p class="leading-relaxed">
+                  This is a assignment given in "JavaScript Full Stack Web Developer Bootcamp" by iNeuron, built using
+                  HTML5 and CSS3.
+                </p>
+                <div class="flex gap-4 mt-2 justify-start">
+                  <a href="https://github.com/prakash-naikwadi/developer-landing-page" target="_blank" class="w-9 h-9">
+                    <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                  <a href="https://developer-landing-page-009.netlify.app/" target="_blank" class="w-9 h-9">
+                    <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ****************************************** -->
+  <!-- Blogs Section -->
+  <!-- ****************************************** -->
+
+  <section class="bg-[#021227] px-7 sm:px-14 py-16 max-w-screen-xl mx-auto" id="blogs">
+    <div class="flex items-center justify-center gap-12 pb-12">
+      <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
+      <h2 class="text-4xl font-bold ">Blogs</h2>
+      <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
+    </div>
+
+    <div class="flex justify-center gap-1 flex-wrap lg:justify-between">
+
+      <!-- blog 1 -->
+      <div class="md:max-w-[70%] lg:max-w-[30%] xl:max-w-sm bg-[#021227] rounded-lg border border-gray-800 shadow-md">
+        <a href="https://prakashnaikwadi.hashnode.dev/scope-scope-chain-and-lexical-environment-in-javascript"
+          target="_blank" rel="noopener noreferrer">
+          <img class="rounded-t-lg"
+            src="https://prakashnaikwadi.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1663508430657%2Fp1beVYGQb.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75"
+            alt="prakash naikwadi blog 1">
+        </a>
+        <div class="p-5">
+          <a href="https://prakashnaikwadi.hashnode.dev/scope-scope-chain-and-lexical-environment-in-javascript"
+            target="_blank" rel="noopener noreferrer">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white-900">Scope, Scope Chain, and
+              Lexical Environment In JavaScript.</h5>
+          </a>
+          <p style="font-family: 'Roboto', monospace;" class="mb-3 font-normal text-gray-500	 text-sm">
+            It provides extra security to our
+            variables by avoiding unwanted modifications from other parts of the program. It also gives us the pow...
+          </p>
+          <a href="https://prakashnaikwadi.hashnode.dev/scope-scope-chain-and-lexical-environment-in-javascript"
+            class="inline-flex items-center text-sm font-medium text-center text-[#309543] transition-all hover:text-[#30954232]"
+            target="_blank" rel="noopener noreferrer">
+            Read more
+            <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- blog 2 -->
+      <div
+        class="md:max-w-[70%] lg:max-w-[30%] xl:max-w-sm mt-4 lg:mt-0 bg-[#021227] rounded-lg border border-gray-800 shadow-md">
+        <a href="https://prakashnaikwadi.hashnode.dev/how-javascript-code-executes-internally-sneak-peek-to-the-execution-context"
+          target="_blank" rel="noopener noreferrer">
+          <img class="rounded-t-lg"
+            src="https://prakashnaikwadi.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1662648808570%2FH_N9dTVIK.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75"
+            alt="prakash blog img 2">
+        </a>
+        <div class="p-5">
+          <a href="https://prakashnaikwadi.hashnode.dev/how-javascript-code-executes-internally-sneak-peek-to-the-execution-context"
+            target="_blank" rel="noopener noreferrer">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white-900">How JavaScript Code Executes Internally -
+              Execution Context.</h5>
+          </a>
+          <p style="font-family: 'Roboto', monospace;" class="mb-3 font-normal text-gray-500	 text-sm">
+            JavaScript is a scripting language and it requires a runtime environment to run and that runtime environment
+            would be a web browser.
+          </p>
+          <a href="https://prakashnaikwadi.hashnode.dev/how-javascript-code-executes-internally-sneak-peek-to-the-execution-context"
+            class="inline-flex items-center text-sm font-medium text-center text-[#309543] transition-all hover:text-[#30954232]"
+            target="_blank" rel="noopener noreferrer">
+            Read more
+            <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- blog 3 -->
+      <div
+        class="md:max-w-[70%] lg:max-w-[30%] xl:max-w-sm mt-4 lg:mt-0 bg-[#021227] rounded-lg border border-gray-800 shadow-md">
+        <a href="https://prakashnaikwadi.hashnode.dev/learn-markdown-in-5-min" target="_blank"
+          rel="noopener noreferrer">
+          <img class="rounded-t-lg"
+            src="https://prakashnaikwadi.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1662212270192%2F_uUfFd1Hf.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75"
+            alt="prakash naikwadi blog 3">
+        </a>
+        <div class="p-5">
+          <a href="https://prakashnaikwadi.hashnode.dev/learn-markdown-in-5-min" target="_blank"
+            rel="noopener noreferrer">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white-900">Learn MarkDown in 5 min</h5>
+          </a>
+          <p style="font-family: 'Roboto', monospace;" class="mb-3 font-normal text-gray-500	 text-sm">
+            We have all seen GitHub repositories readme.md file used for project explanation. In today's world, we
+            should explain our code through our readme files as no one...
+          </p>
+          <a href="https://prakashnaikwadi.hashnode.dev/learn-markdown-in-5-min"
+            class="inline-flex items-center text-sm font-medium text-center text-[#309543] transition-all hover:text-[#30954232]"
+            target="_blank" rel="noopener noreferrer">
+            Read more
+            <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+
+
+    </div>
+
+    <!-- more blogs -->
+    <div class="text-end">
+      <a href="https://prakashnaikwadi.hashnode.dev/"
+        class="inline-flex items-center pt-2 md:pr-[120px] lg:pr-0 text-xl font-medium text-center text-[#309543] transition-all hover:text-[#30954232]"
+        target="_blank" rel="noopener noreferrer">
+        More Blogs
+        <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+            clip-rule="evenodd"></path>
+        </svg>
+      </a>
+    </div>
+
+  </section>
+
+  <!-- ****************************************** -->
+  <!-- Call To Action Section -->
+  <!-- ****************************************** -->
+
+  <section class="bg-[#021227] px-7 sm:px-14 py-16 max-w-screen-xl mx-auto" id="contact">
+    <div class="flex items-center justify-center gap-12 pb-12">
+      <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
+      <h2 class="text-4xl font-bold ">Get In Touch</h2>
+      <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
+    </div>
+
+    <div class="mt-12 flex justify-center">
+      <ul class="flex gap-4">
+        <li class="mr-2 flex justify-center items-center">
+          <a href="mailto: naikwadiprakash1@gmail.com" target="_blank" class="w-[35px] h-[35px]">
+            <ion-icon name="mail" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+          </a>
+        </li>
+        <li class="mr-2 flex justify-center items-center">
+          <a href="https://www.linkedin.com/in/prakash-naikwadi/" target="_blank" class="w-[35px] h-[35px]">
+            <ion-icon name="logo-linkedin" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+          </a>
+        </li>
+        <li class="mr-2 flex justify-center items-center">
+          <a href="https://github.com/prakash-naikwadi" target="_blank" class="w-[35px] h-[35px]">
+            <ion-icon name="logo-github" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+          </a>
+        </li>
+        <li class="mr-2 flex justify-center items-center">
+          <a href="https://twitter.com/PrakashNaikwad6" target="_blank" class="w-[35px] h-[35px]">
+            <ion-icon name="logo-twitter" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+          </a>
+        </li>
+        <li class="mr-2 flex justify-center items-center">
+          <a href="https://www.instagram.com/prakashnaikwadi/?hl=en" target="_blank" class="w-[35px] h-[35px]">
+            <ion-icon name="logo-instagram" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+</body>
+
+</html>

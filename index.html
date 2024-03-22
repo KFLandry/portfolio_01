@@ -54,13 +54,13 @@
   <!-- Hero Section -->
   <!-- ********************************************** -->
 
-  <section  class="p-3 flex flex-col-reverse sm:flex-row sm:justify-between lg:min-h-screen sm:px-16  max-w-screen-xl mx-auto">
+  <section  class="p-3 flex flex-col-reverse items-center sm:flex-row sm:justify-between lg:min-h-screen sm:px-16  max-w-screen-xl mx-auto">
     <!-- left side -->
-    <div>
+    <div class="h-fit">
       <p  class="text-[#309543] max-w-md font-semibold">Salut, je m'appelle </p>
       <h2 class="text-left text-4xl lg:text-5xl xl:text-6xl	font-bold text-[#cccccc] mt-3 lg:mt-7">LANDRY KANKEU</h2>
       <h2 class="text-left text-3xl lg:text-4xl xl:text-5xl font-bold text-[#247032] mt-3 lg:mt-7" >Développeur Junior</h2>
-      <p class="md:w-full md:max-w-md mt-6 lg:mt-10 text-[#cccccc]" >
+      <p class="md:w-full md:max-w-md mt-6 lg:mt-10 lg: text-[#cccccc]" >
         Passionné de technologie et déterminé à devenir Ingénieur en Informatique, je suis en plein parcours vers cet objectif. Actuellement en 2ème année de BTS SIO option SLAM, je prévois de poursuivre mon chemin en école d'ingénieur dès l'année prochaine. Au cours de ma formation que j'ai suivi en alternance chez <a href="" class="text-blue-400">BS2I</a>, j'ai eu l'opportunité de découvrir divers langages de programmation et technologies à travers divers projets où j'ai contribué aux développement ce qui a renforçant mes compétences et ma passion pour ce domaine.<br>
       </p>
       <div class="mt-12">
@@ -89,7 +89,7 @@
       </div>
     </div>
     <!-- right side -->
-    <div class="hidden sm:block sm:w-2/5">
+    <div claa>
       <img src="images\Screenshot 2024-03-20 at 21.17.26.png" alt="hero-img" class="">
     </div>
   </section>
@@ -208,6 +208,44 @@
 
     <!-- featured projects -->
     <div>
+      <div class="flex flex-col sm:flex-row sm:gap-12 mt-20 sm:mt-20">
+
+        <!-- right side -->
+        <div class="sm:w-1/2 h-[300px] flex flex-col justify-center">
+          <h2 class=" text-3xl font-bold mb-8 sm:relative sm:left-[10%] lg:left-1/4">Dossier Editeur</h2>
+          <p
+            class="bg-[#051830] pl-8 pr-2 py-4 mb-2 rounded shadow-sm sm:relative sm:left-[10%] lg:left-1/4 z-40 text-[#ffffff78]">
+            <span class="text-blue-400">Dossier Editeur</span> est une <a href="" class="text-blue-400"> appication web </a>  que j'ai concu et développé.C'est à la fois une documentation et outil de test des solutions qu'offre <a href="" class="text-blue-400">BS2I</a> et qui sont integrées par les <a href="" class="text-blue-400"> editeurs de logicielles de devis et de chiffrages</a>.L'application est codée en <a href="" class="text-blue-400">Orientée Objet (OOP)</a>  et l'approche mis en avant c'est le  <a href="" class="text-blue-400">rendu côté client (Serveur Side Rendering)</a>
+          </p>
+          <div style="font-family: 'Roboto Mono', monospace;" class="sm:relative sm:left-[10%] lg:left-1/4">
+            <ul class="flex gap-4 justify-start text-sm">
+              <li>webdev</li>
+              <li>HFSQL </li>
+              <li>CSS</li>
+            </ul>
+          </div>
+          <div class="flex gap-4 mt-2 justify-start sm:relative sm:left-[10%] lg:left-1/4">
+            <a href="https://github.com/KFLandry/AssocationBasketProject.git" target="_blank" class="w-9 h-9">
+              <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+            <a href="#" target="_blank" class="w-9 h-9">
+              <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </div>
+        </div>
+
+        <!-- left side -->
+        <div class="mockup-window border border-base-300 sm:w-1/2 h-[300px]">
+          <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-[300px] rounded">
+            <div class="featured-project-img-01  transition-all	duration-500  ">
+              <img src="./images/tarifeo.webp" alt="omnifood" class="size-full">
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
 
       <!-- featured project 01 -->
       <div class="flex flex-col sm:flex-row sm:gap-12 mt-20">
@@ -289,7 +327,7 @@
           </h2>
           <p
             class="bg-[#051830] pl-8 pr-2 py-4 mb-2 rounded shadow-sm sm:relative sm:right-[10%] lg:right-1/4 text-[#ffffff78]">
-            EduCycle : une plateforme pour la communauté étudiante de Nice. Fournitures scolaires, échanges solidaires. Interface simple, sécurisée. Développement optimisé : <a href="" class="text-blue-400">SPA</a> en Vanilla JS, <a href="" class="text-blue-400">API REST</a> en PHP. Rejoignez-nous pour une économie circulaire et responsable.<br>
+            EduCycle est une <a href="" class="text-blue-400"> appication web </a> que j'ai concue et developpée en me mettant dans le peau d'un developpeur FULL-STACKS.Elle a pour but de renforcer la solidarité étudiante car elle parmet aux etudiants vivant en residence universitaire de partager des fournitures qui ne leurs sont plus utile.Pour developper cette appliction j'ai mis en avant une approche <a href="" class="text-blue-400">rendu côté client( Client Side Rendering)</a>. <br>Le <a href="" class="text-blue-400">front-end</a> est une <a href="" class="text-blue-400">application mono-page</a>(SPA Single page application) coder en <a href="" class="text-blue-400">vanilla Javascript</a><br>Le <a href="" class="" class="text-blue-400">back-end</a> est une <a href="" class="text-blue-400">API REST</a> developpée en <a href=""class="text-blue-400"> php natif</a>
           </p>
           <div style="font-family: 'Roboto Mono', monospace;" class="sm:relative sm:right-[10%] lg:right-1/4">
             <ul class="flex gap-4 sm:justify-end text-sm">
@@ -321,7 +359,7 @@
           <h2 class=" text-3xl font-bold mb-8 sm:relative sm:left-[10%] lg:left-1/4">Basket Master</h2>
           <p
             class="bg-[#051830] pl-8 pr-2 py-4 mb-2 rounded shadow-sm sm:relative sm:left-[10%] lg:left-1/4 z-40 text-[#ffffff78]">
-            <span class="text-blue-400">Basket Master</span> est une application de bureau que j'ai concu et développé dans le but permettre à un coach de basket de gérer ses équipes.L'application gerer tout le processus de l'enregistrement des enquipes en passant par des convocations au matchs et entrainenemts jusqu'a l'analyse  et les presentations des statistiques des joueurs et des équipes.
+            <span class="text-blue-400">Basket Master</span> est une <a href="" class="text-blue-400"> appication de bureau </a>  que j'ai concu et développé dans le but permettre à un coach de basket de gérer ses équipes.L'application gerer tout le processus de l'enregistrement des enquipes en passant par des convocations au matchs et entrainenemts jusqu'a l'analyse  et les presentations des statistiques des joueurs et des équipes.
           </p>
           <div style="font-family: 'Roboto Mono', monospace;" class="sm:relative sm:left-[10%] lg:left-1/4">
             <ul class="flex gap-4 justify-start text-sm">
@@ -355,8 +393,12 @@
 
     </div>
     <!-- Honorable Mentions -->
-    <div class="mt-20">
-      <h2 class="text-center text-3xl font-semibold">Veille Informatique</h2>
+    <div class="mt-20"> 
+      <div class="flex justify-center items-center gap-12 pb-12">
+        <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
+        <h2 class="text-4xl font-bold">Veille Technologique</h2>
+        <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
+      </div>
       <br>
       <p class="p-3">
         Ma veille technologique <a href=""></a> se concentre sur deux domaines d'une importance cruciale dans le monde des technologies: le <a href="" class="text-blue-400">framework Spring</a> de Java et l'<a href="" class="text-blue-400">Internet des Objets (IoT)</a>. <br> Le framework Spring est une plateforme de développement d'application <a href="" class="text-blue-400">Java</a> Java qui fournit une infrastructure complète pour simplifier le développement en proposant des fonctionnalités telles que <a href="" class="text-blue-400">l'inversion de contrôle</a>,  l' <a href="" class="text-blue-400">injection de dépendances</a> et la facilitation du développement d'applications d'entreprise robustes et évolutives. Quant à l'<a href="" class="text-blue-400"> IoT</a>, il désigne un réseau d'objets physiques connectés entre eux et à Internet, ouvrant la voie à une multitude d'applications allant de la <a href="" class="text-blue-400">domotique</a>  à l'<a href="" class="text-blue-400">industrie 4.0</a> . Cette veille permettra d'explorer les synergies entre ces deux domaines et d'identifier les opportunités et les défis qui émergent de leur convergence.

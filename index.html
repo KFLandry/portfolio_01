@@ -47,8 +47,6 @@
       </ul>
     </nav>
   </header>
-
-
   <!-- ********************************************** -->
   <!-- Hero Section -->
   <!-- ********************************************** -->
@@ -204,6 +202,23 @@
       </div>
     </div>
   </section>
+  
+  <!-- ********************************************** -->
+  <!-- Popup for more detail -->
+  <!-- ********************************************** -->
+  <div id="popupDetails" class="py-16 max-w-screen-xl mx-auto hidden shadow-2xl overflow-visible rounded-md w-full justify-center">
+    <div class="mockup-window absolute border border-base-300 sm:w-1/2 h-full">
+      <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-full rounded">
+        <div class="featured-project-img-01  transition-all	duration-500  ">
+          <img src="./images/tarifeo.webp" alt="logo tarifeo" class="size-full bg-scroll">
+          <img src="./images/overViewTarifeoStats.png" alt="overviewTS" id="imgTS" class="size-full">
+          <img src="images/OverviewDossierEditeur.png" alt="logo tarifeo" id="imgDE" class="size-full">
+          <img src="./images/overVeiwTarifeoGestion.png" alt="logo tarifeo" id="imgTG"  class="size-full">
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <!-- ****************************************** -->
   <!-- Some Things I’ve Built Section -->
@@ -246,7 +261,7 @@
             <a href="http://152.228.224.63/DossierEditeur" target="_blank" class="w-9 h-9">
               <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
             </a>
-            <button type="button" title="See More" class="h-9">
+            <button type="button" title="See More" class="h-9" id="btnDE">
               <i class="fa-solid fa-arrow-up-right-from-square size-7 transition-all hover:text-[#309543]"></i>
             </button>
           </div>
@@ -293,7 +308,7 @@
               <li>HFSQL</li>                  
             </ul>
             <div class="flex justify-end">
-              <button type="button" title="See More" class="h-9">
+              <button type="button" title="See More" class="h-9" id="btnTG">
                 <i class="fa-solid fa-arrow-up-right-from-square size-7 transition-all hover:text-[#309543]"></i>
               </button>
             </div>
@@ -330,7 +345,7 @@
               <a href="http://152.228.224.63/DossierEditeur" target="_blank" class="w-9 h-9">
                 <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
               </a>
-              <button type="button" title="See More" class="h-9">
+              <button type="button" title="See More" class="h-9" id="btnTS">
                 <i class="fa-solid fa-arrow-up-right-from-square size-7 transition-all hover:text-[#309543]"></i>
               </button>
             </div>
@@ -551,6 +566,7 @@
     </div>
 
   </section>
+  
 
   <!-- ****************************************** -->
   <!-- Call To Action Section -->
@@ -584,6 +600,7 @@
     </div>
   </section>
   <script src="https://kit.fontawesome.com/b8937a4147.js" crossorigin="anonymous"></script>
+  <script src="index.js" type="module"></script>
 </body>
 
 </html>

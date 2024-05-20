@@ -1,0 +1,10 @@
+<div class="mockup-window absolute border border-base-300 sm:w-1/2 h-full w-full">
+        <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-full w-full rounded">
+          <div class="featured-project-img-01  transition-all	duration-500   ">
+            <!-- <img src="./images/tarifeo.webp" alt="logo tarifeo" class="w-full bg-scroll"> -->
+            <!-- <img src="./images/overViewTarifeoStats.png" alt="overviewTS" id="imgTS" class="size-full"> -->
+            <img src="images/OverviewDossierEditeur.png" alt="logo tarifeo" id="imgDE" class="size-full">
+            <!-- <img src="./images/overVeiwTarifeoGestion.png" alt="logo tarifeo" id="imgTG"  class="size-full"> -->
+          </div>
+        </div>
+      </div>
